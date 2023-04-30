@@ -26,12 +26,11 @@ public class Main {
                     }
                     out.println("Bye. hope we had a great time.(yes/no)");
                     final String greatTime = in.readLine();
-                    if (child.equals("yes")) {
+                    if (greatTime.equals("yes")) {
                         out.println(String.format("see you, %s", name));
                     } else {
                         out.println(String.format("see you, %s. hope next time will be better", name));
                     }
-
                 }
             }
         }
